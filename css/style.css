@@ -1,0 +1,490 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'bona-nova';
+    src: url(/fonts/Bona_Nova/BonaNova-Regular.ttf);
+}
+
+/* this is navbar-smpl-section */
+.navbar-smpl .nav-link {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: montserrat;
+}
+
+.navbar-smpl .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-smpl .dropdown-item:hover {
+    color: black;
+}
+
+/* this is smpl-fond section */
+
+.smpl-found .card-title {
+    background: linear-gradient(90deg, #BB8E52 0%, #FBF39F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'bona-nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 86px;
+    margin-top: 70px;
+}
+
+.smpl-found .card-text {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    padding-right: 29px;
+    line-height: 150%;
+    /* or 68px */
+    color: #CAD0DD;
+}
+
+.smpl-found .card a {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.smpl-found .links {
+    margin-bottom: 120px;
+}
+
+.smpl-found .links-1 a {
+    color: #FFFFFF;
+}
+
+/* this is mission section  */
+.mission .card-title {
+    font-size: 36px;
+    color: #274D94;
+    font-family: 'bona-nova';
+}
+
+.mission .card-text {
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 22px;
+    padding-right: 36px;
+    color: #686868;
+}
+
+.mission button {
+    background-color: #274D94;
+    color: #FFFFFF;
+    padding: 8px 50px;
+    font-family: 'montserrat';
+    text-transform: uppercase;
+}
+
+.mission img {
+    padding: 80px 0px;
+}
+
+.mission .card {
+    margin-top: 80px;
+    border: none;
+}
+
+/* this is smpl-ecosystem section */
+.smpl-eco .card-title {
+    color: #CBB26A;
+    font-size: 30px;
+    font-family: 'bona-nova';
+}
+
+.smpl-eco img {
+    padding: 155px 40px;
+}
+
+.smpl-eco .card-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-right: 26px;
+    font-family: 'montserrat';
+}
+
+.smpl-eco .btn {
+    color: #F2E494;
+    border: 1px solid #F2E494;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-family: 'montserrat';
+}
+
+/* this is community section  */
+.community .container {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.community .card {
+    border: none;
+    margin-top: 30px;
+}
+
+.community .card-title {
+    color: #274D94;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'bona-nova';
+}
+
+.community .card-text {
+    font-family: 'montserrat';
+    color: #616161;
+    font-size: 16px;
+    margin: 30px 0px;
+}
+
+.community .card .btn-1 {
+    background-color: #274D94;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 8px 110px;
+    font-family: 'montserrat';
+}
+
+.community .card .btn-2 {
+    color: #274D94;
+    border: 2px solid #274D94;
+    text-transform: uppercase;
+    padding: 8px 24px;
+    font-family: 'montserrat';
+}
+
+/* this is partners section  */
+.partners .card {
+    border: none;
+    /* margin-top: 30px; */
+    margin-top: 89px;
+}
+
+.partners .card-title {
+    color: #274D94;
+    font-size: 36px;
+    font-family: 'bona-nova';
+    font-weight: bold;
+
+}
+
+.partners .card-text {
+    color: #616161;
+    font-size: 16px;
+    margin: 12px 0px;
+}
+
+.partners img {
+    margin: 90px 0px;
+}
+
+.partners .card .btn-1 {
+    background-color: #274D94;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 8px 80px;
+}
+
+.partners .card .btn-2 {
+    color: #274D94;
+    border: 2px solid #274D94;
+    text-transform: uppercase;
+    padding: 8px 90px;
+}
+
+/* this is ecosystem-sction */
+
+.ecosystem .text {
+    color: #171717;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: 'bona-nova';
+}
+
+.ecosystem .btn-1 {
+    background: #274D94;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 12px 50px;
+    font-family: 'montserrat';
+}
+
+.ecosystem .btn-2 {
+    color: #D4AB34;
+    border: 2px solid #D4AB34;
+    text-transform: uppercase;
+    padding: 11px 50px;
+    font-family: 'montserrat';
+}
+
+/* this is footer section */
+.foter a img {
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.foter li a {
+    background: linear-gradient(90deg, #BB8E52 0%, #FBF39F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'bona-nova';
+    font-weight: semi-bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.foter h5 {
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: 0.7;
+    font-family: 'montserrat';
+}
+
+.foter .btn {
+    background: linear-gradient(90deg, #BB8E52 0%, #FBF39F 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'montserrat';
+    font-weight: bold;
+    border: 1px solid #BB8E52;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 8px 25px;
+}
+
+/* css for mobile device */
+@media screen and (min-width:700px) {
+    .links-1 {
+        display: none;
+    }
+
+    .none {
+        display: none;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .navbar-smpl .navbar-collapse {
+        text-align: center;
+    }
+
+    .smpl-found .image {
+        margin-top: -120px;
+    }
+
+    .smpl-found .card-title {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .smpl-found .card-text {
+        font-size: 18px;
+    }
+
+    .smpl-found .links {
+        margin-bottom: 0px;
+        display: none;
+    }
+
+    .smpl-found .links-1 {
+        margin-bottom: 100px;
+    }
+
+    /* css for mission section */
+    .mission .odr {
+        order: 1;
+    }
+
+    .mission img {
+        padding: 60px 0px 0px 0px;
+    }
+
+    .mission .card {
+        margin-top: 40px;
+    }
+
+    .mission .card-text {
+        padding-right: 0px;
+        font-size: 16px;
+    }
+
+    .mission button {
+        padding: 22px 60px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+
+    /* css for smpl-ecosystem section */
+    .smpl-eco img {
+        padding: 80px 0px 60px 0px;
+
+    }
+
+    .smpl-eco .card-text {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+
+    .smpl-eco .buton {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .smpl-eco .btn {
+        padding: 16px 25px;
+        text-transform: uppercase;
+    }
+
+    /* css for community section */
+    .community .odr {
+        order: 1;
+    }
+
+    .community .card .btn-1,
+    .btn-2 {
+        width: 100%;
+        padding: 16px 0px;
+    }
+
+    .community .card .btn-2 {
+        width: 100%;
+        padding: 16px 0px;
+    }
+
+    .community .container {
+        margin-bottom: 0px;
+    }
+
+    /* css for .partners section */
+    .partners .card {
+        margin-top: 10px;
+    }
+
+    .partners img {
+        margin: 80px 0px 30px 0px;
+    }
+
+    .partners .card .btn-1 {
+        width: 100%;
+        padding: 16px 0px;
+    }
+
+    .partners .card .btn-2 {
+        width: 100%;
+        padding: 16px 0px;
+    }
+
+    /* css for ecosystem section */
+
+    .ecosystem .btn-1 {
+        width: 100%;
+        padding: 16px 0px;
+    }
+
+    .ecosystem .btn-2 {
+        width: 100%;
+        padding: 16px 0px;
+    }
+
+    /* css for footer section */
+    .foter .icon-none {
+        display: none;
+    }
+
+    .foter .none::before {
+        content: '';
+        position: relative;
+        background-color: #fafafa66;
+        width: 100%;
+        height: 2px;
+    }
+
+    .foter .container {
+        text-align: center;
+    }
+
+    .foter a img {
+        margin-right: 20px;
+    }
+}
+
+
+/* about page css */
+
+/* about section */
+.about .card-title {
+    color: #4D6183;
+    font-size: 45px;
+    font-family: 'montserrat';
+    font-weight: bold;
+}
+
+.about .card-body .card-text {
+    font-size: 14px;
+}
+
+.members .member-heading {
+    font-size: 36px;
+    color: #274D94;
+}
+
+.members .card-title {
+    font-size: 24px;
+}
+
+.members .card-text {
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+/* smpl values section */
+.smpl-values {
+    background-color: #19253E;
+}
+
+.smpl-values .card {
+    border: none;
+    background: none;
+    color: #ffffff;
+}
+
+.smpl-values .opc {
+    color: #4D6183;
+    opacity: 0.8;
+    font-size: 24px;
+}
+
+/* partnership css */
+
+.partnership .card {
+    position: relative;
+    border-top: 1px solid #274D94;
+    border-left: 1px solid #274D94;
+    border-top-width: 2px;
+}
